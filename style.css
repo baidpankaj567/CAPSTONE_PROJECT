@@ -56,7 +56,7 @@ nav {
 
 .port-image {
     width: 100%;
-    max-width: 800px;
+    
     height: auto;
     margin: 2rem auto;
     border-radius: 10px;
@@ -64,7 +64,7 @@ nav {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns:1fr 1fr 1fr;
     gap: 2rem;
     padding: 3rem 0;
 }
@@ -86,7 +86,7 @@ nav {
 
 .services-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 6fr 1fr 1fr;
     justify-content: end;
     gap: 2rem;
     max-width: 800px;
