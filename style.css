@@ -30,7 +30,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    
 }
+
 
 .logo {
     font-size: 1.5rem;
@@ -49,9 +51,10 @@ nav {
 }
 
 .port h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    line-height: 1;
     padding: 0;
-    margin-bottom: 0rem;
+    margin: 0rem;
 }
 
 .port-image {
@@ -72,9 +75,16 @@ nav {
 .project img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 0px;
 }
+.project p{
+    color:rgba(255, 255, 255, 0.6);
+}
+.project img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 
+}
 .services {
     padding: 3rem 0;
 }
@@ -86,12 +96,13 @@ nav {
 
 .services-grid {
     display: grid;
-    grid-template-columns: 6fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     justify-content: end;
     gap: 2rem;
-    max-width: 800px;
+    max-width: 100%;
+    
 }
-
+.services-column
 .services-column {
     
     display:flex;
@@ -200,6 +211,9 @@ color: white;
 text-decoration: none;
 font-size: 1rem;
 border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navhr{
+    margin-top: 0px;
 }
 
 @media (max-width: 768px) {
